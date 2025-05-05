@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog Not Found</title>
+    <style>
+        .gpltimes_nc_root {
+            --gpltimes-nc-primary: #1a8fc4;
+            --gpltimes-nc-hover: #167bb4;
+            --gpltimes-nc-secondary: #393E46;
+            --gpltimes-nc-bg: #F5F9FC;
+            --gpltimes-nc-card-bg: #FFFFFF;
+            --gpltimes-nc-text-primary: #393E46;
+            --gpltimes-nc-text-secondary: #4D535C;
+        }
+
+        .gpltimes_nc_body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--gpltimes-nc-bg);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .gpltimes_nc_container {
+            background-color: var(--gpltimes-nc-card-bg);
+            border-radius: 12px;
+            padding: 40px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 4px 6px -1px rgba(26, 143, 196, 0.1), 0 2px 4px -1px rgba(26, 143, 196, 0.06);
+            text-align: center;
+            animation: gpltimes_nc_fadeIn 0.6s ease-out;
+            border: 1px solid rgba(26, 143, 196, 0.1);
+        }
+
+        @keyframes gpltimes_nc_fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .gpltimes_nc_icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 24px;
+            color: var(--gpltimes-nc-primary);
+        }
+
+        .gpltimes_nc_heading {
+            color: var(--gpltimes-nc-text-primary);
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 16px 0;
+            line-height: 1.2;
+        }
+
+        .gpltimes_nc_message {
+            color: var(--gpltimes-nc-text-secondary);
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0 0 32px 0;
+        }
+
+        .gpltimes_nc_button {
+            display: inline-flex;
+            align-items: center;
+            background-color: var(--gpltimes-nc-primary);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            gap: 8px;
+        }
+
+        .gpltimes_nc_button:hover {
+            background-color: var(--gpltimes-nc-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(26, 143, 196, 0.25);
+        }
+
+        .gpltimes_nc_button:active {
+            transform: translateY(0);
+        }
+
+        .gpltimes_nc_button_icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        @media (max-width: 480px) {
+            .gpltimes_nc_container {
+                padding: 32px 24px;
+            }
+
+            .gpltimes_nc_heading {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body class="gpltimes_nc_body gpltimes_nc_root">
+    <div class="gpltimes_nc_container">
+        <svg class="gpltimes_nc_icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        <h1 class="gpltimes_nc_heading">Changelog Not Available</h1>
+        <p class="gpltimes_nc_message">We apologize, but the changelog details for this update are not currently available. Please visit our developer website for the latest updates and information.</p>
+        <a href="https://www.gpltimes.com" target="_blank" class="gpltimes_nc_button">
+            Visit Developer Website
+            <svg class="gpltimes_nc_button_icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+        </a>
+    </div>
+</body>
+</html>

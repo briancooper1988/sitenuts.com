@@ -1,0 +1,12 @@
+wp-content/uploads/
+wp-config.php
+.htaccess
+*.log
+node_modules/
+vendor/
+wp-content/plugins/wppusher/
+wp-content/ai1wm-backups/
+wp-content/uploads/
+wp-content/ai1wm-backups/
+wp-config.php
+*.log
